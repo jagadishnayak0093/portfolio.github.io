@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Oswald:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Noto+Serif:wght@400;700&family=Open+Sans&family=Oswald:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Noto+Serif:wght@400;700&family=Oswald:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(120, 116, 116);
+    color:black;
+    width: 434px;
+    font-family: 'Noto Serif', serif;
+    height: auto;
+}
+.sidebar nav {
+    padding: 38px;
+  }
+.sidebar nav li a{
+   text-decoration: none;
+   color:black;
+}
+.sidebar nav li a:hover{
+    color:blue;
+}
+.sidebar nav li{
+    list-style: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.main{
+    background-color: rgb(182, 183, 183);
+    width: 80vw;
+}
+.container{
+    display: flex;
+    
+}
+.info{
+   /* background-color:blue; */
+   height: 32vw;
+   width: 75vw;
+   margin: 84px;
+   padding: 34px;
+   display: flex;
+   position: relative;
+   
+
+}
+.devpic img{
+    width: 370px;
+    height: 32vw;
+    position: relative;
+    top: 0px;
+    right: 470px;
+    
+}
+.devinfo{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 582px;
+    font-family: 'Oswald', sans-serif;
+}
+.hello{
+    font-size: 45px;
+}
+.name {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+}
+.about{
+    font-size: 24px;
+}
+.buttons{
+    margin-top: 40px;
+    
+}
+.buttons button{
+    padding: 11px;
+    border-radius: 24px;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 23px;
+    cursor: pointer;
+     
+}
+.buttons button:hover{
+background-color: black;
+color:lime;
+}
+.cform{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;;
+    padding-top: 70px;
+    padding-left: 80px;
+}
+.cform h1{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.cform p{
+    text-align: center;
+
+}
+.cform form div{
+    padding: 15px 0;
+    
+
+}
+/* .xml{
+    display: flex;
+    font-family: 'Alegreya', serif;
+    font-size: 15px;
+} */
+.bsdk{
+    width: 231px;
+    border-radius: 6px;
+}
+.form-control{
+
+    border-radius: 6px;
+    width: 231px;
+}
+#emailHelp{
+    font-family: 'Alegreya', serif;
+    font-size: 13px;
+    color: blue;
+}
+.comment{
+    font-family: 'Alegreya', serif;
+    border-radius: 6px;
+    width: 231px;
+}
+.btn button{
+    padding: 10px;
+    border-radius: 18px;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.btn button:hover{
+    background-color: black;
+color:lime;
+}
+.navigator{
+    padding-top: 70px;
+    padding-left: 80px;
+} 
+.navigator h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color:black;
+    font-size: 40px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    align-content: space-around;
+    justify-content: space-between;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    background-color: whitesmoke;
+    justify-items: center;
+    padding: 10px;
+}
+.sec2{
+    height: 70vh;
+    width: 30vw;
+     background-color: whitesmoke;
+    align-items: center;
+
+}
+.work{
+    display:grid;
+    align-items: center;
+    justify-items: center;
+}
+.work1{
+    justify-items: center;
+    align-items: center;
+}
+.a1{
+    margin: 20px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.a2{
+    margin: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.a3{
+    margin: 15px;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btw button{
+    border-radius: 18px;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    padding: 7px;
+}
+.btw button:hover{
+    background-color: black;
+    color:lime;
+}
+.b3{
+    margin: 15px;
+    margin-top:50px ;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.l1{
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2;
+}
+/* .in1{
+    position: relative;
+} */
+
+.about-container{
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    
+}
+.introduce{
+    padding-top: 20px; 
+    display: flex;
+    flex-direction: row;
+    /* top: 16px;
+    left: -55px;
+    float: left; */
+
+
+}
+.a0{
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+.b0{
+    text-align: justify;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 32px;
+}
+.c0{
+    margin-top: 102px;
+    font-family: 'Open Sans', sans-serif;
+    
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+
+}
+.price{
+   
+   position: relative;
+   top: 85px;
+   
+   float: left;
+}
+.next{
+    margin-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.navigator1{
+    padding-top: 70px;
+    padding-left: 80px;
+    object-fit: cover;
+    text-align: center;
+    
+}
+.sidebar1{
+    background-color: rgb(120, 116, 116);
+    color:black;
+    width: 434px;
+    font-family: 'Noto Serif', serif;
+    height: 100vh;
+    position: fixed;
+}
+.sidebar1 nav {
+    padding: 38px;
+  }
+.sidebar1 nav li a{
+   text-decoration: none;
+   color:black;
+}
+.sidebar1 nav li{
+    list-style: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+}
+.fm{
+    display: flex;
+
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content:space-evenly;
+}
+.d0{
+    display: inline;
+    position: relative;
+   left:20px;
+   top: 5px;
+   margin-left: 30px;
+}
+.container1{
+    display: flex;
+    
+}
+.a5{
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.a6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    line-height: 2;
+}
+.tt ul li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.c8{
+    border-radius: 6px;
+    background-size: cover;
+    
+}
+.cform h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.s1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main1{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(182, 183, 183);
+}
+.e1 p{
+    /* display: flex;
+    align-items: center; */
+    margin-left: 650px;
+    font-size: 20px;
+    font-weight: bold;
+}
